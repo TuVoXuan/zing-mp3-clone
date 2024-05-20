@@ -1,0 +1,35 @@
+.btn {
+  border-radius: 999px;
+  font-size: 14px;
+  line-height: normal;
+  border: 0;
+  display: inline-block;
+  font-weight: 400;
+  text-transform: none;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+
+  &.is-upper {
+    text-transform: uppercase;
+  }
+
+  &.is-outlined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+  }
+
+  &.is-medium {
+    font-size: 14px;
+    padding: 9px 24px;
+  }
+
+  &:hover{
+    filter: brightness(0.9);
+  }
+}

@@ -1,0 +1,23 @@
+.login-nav-container {
+  padding: 15px 8px;
+  border-radius: 8px;
+  margin: 10px 20px;
+  color: #fff;
+  background-color: #9b4de0;
+
+  .text {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .login-btn {
+    padding: 6px 35px;
+    font-size: 12px;
+    font-weight: 600;
+    border-color: #fff;
+    color: inherit;
+  }
+}
